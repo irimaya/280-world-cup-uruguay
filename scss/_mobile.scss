@@ -1,0 +1,74 @@
+@media (max-width: 700px) {
+	// Main Styling
+	hr {
+		width: 100%;
+	}
+
+	// Utility Classes
+	.display-1 {
+		font-size: 4rem;
+	}
+
+	// Nav
+	#navbar {
+		height: 100%;
+		padding-top: 10px;
+		padding-bottom: 40px;
+		.logo {
+			font-size: 1.5rem;
+			padding: 10px;
+		}
+		.container {
+			flex-direction: column;
+		}
+		ul {
+			// flex-direction: column;
+			li {
+				font-size: 12px;
+				margin-left: 0;
+				padding: 20px;
+			}
+		}
+	} //End #navbar
+
+	// Showcase
+	#showcase {
+		height: 100%;
+		.showcase-flex {
+			flex-direction: column;
+			text-align: center;
+			&-description {
+				padding: 20px;
+				ul {
+					justify-content: center;
+				}
+			}
+			&-image {
+				padding-top: 20px;
+			}
+		}
+	} //End #showcase
+
+	// Group
+	#group {
+		.group-table {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 50px;
+			table {
+				tr td {
+					padding: 10px;
+				}
+			}
+		}
+	} //End #group
+
+	// About
+	#about {
+		// padding: 80px 0;
+		.about-flex {
+			flex-direction: column;
+			gap: 20px;
+		}
+	} //End #about
+}

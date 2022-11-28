@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.9em;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.txt-large {
+  font-size: 18px;
+}
+
+.txt-black {
+  font-weight: 700;
+}
+
+.display-1 {
+  font-size: 6rem;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px 23px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn-black {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+#navbar {
+  height: 15vh;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#navbar a {
+  color: #000;
+  font-weight: 500;
+}
+#navbar .logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+#navbar ul li {
+  margin-left: 40px;
+}
+#navbar ul .btn-menu {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 18px;
+}
+
+#showcase {
+  height: 85vh;
+}
+#showcase .showcase-flex {
+  display: flex;
+}
+#showcase .showcase-flex-description {
+  flex: 1;
+  padding: 90px 0;
+}
+#showcase .showcase-flex-description .btn {
+  margin: 20px 0;
+}
+#showcase .showcase-flex-description ul {
+  display: flex;
+  list-style: none;
+}
+#showcase .showcase-flex-description ul img {
+  height: 70px;
+}
+#showcase .showcase-flex-image {
+  flex: 1;
+}
+#showcase .showcase-flex-image img {
+  width: 80%;
+  float: right;
+}
+
+#games {
+  padding: 80px 0;
+}
+#games .txt-large {
+  text-align: center;
+  padding: 40px 50px;
+}
+#games .games-flex {
+  display: flex;
+  justify-content: center;
+}
+#games .games-flex img {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#games .games-flex-box {
+  width: 200px;
+  margin: 20px;
+}
+#games .games-flex-box p {
+  text-align: center;
+}
+
+#group {
+  padding: 80px 0;
+}
+#group .group-table {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 650px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+#group .group-table table tr td {
+  color: #c4c4c4;
+  padding: 20px;
+}
+#group .group-table table .group-table-country {
+  color: #000;
+}
+
+#about {
+  padding: 80px 0;
+}
+#about .about-flex {
+  display: flex;
+  gap: 40px;
+}
+#about .about-flex-image {
+  flex: 1;
+}
+#about .about-flex-image img {
+  width: 100%;
+}
+#about .about-flex-description {
+  flex: 1;
+}
+
+#qatar {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#mainfooter {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  hr {
+    width: 100%;
+  }
+  .display-1 {
+    font-size: 4rem;
+  }
+  #navbar {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  #navbar .logo {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  #navbar .container {
+    flex-direction: column;
+  }
+  #navbar ul li {
+    font-size: 12px;
+    margin-left: 0;
+    padding: 20px;
+  }
+  #showcase {
+    height: 100%;
+  }
+  #showcase .showcase-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  #showcase .showcase-flex-description {
+    padding: 20px;
+  }
+  #showcase .showcase-flex-description ul {
+    justify-content: center;
+  }
+  #showcase .showcase-flex-image {
+    padding-top: 20px;
+  }
+  #group .group-table {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  #group .group-table table tr td {
+    padding: 10px;
+  }
+  #about .about-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
